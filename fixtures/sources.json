@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {"source_id": "catalog-108", "record_kind": "collection_item", "collected_at": "2026-06-10T09:00:00+08:00", "payload": {"item_ref": "ITEM-SYN-108", "catalogue_revision": 5, "period": "明代", "institution_ref": "MUSEUM-SYN-2"}},
+    {"source_id": "scan-top-3", "record_kind": "digital_asset", "collected_at": "2026-06-11T11:30:00+08:00", "payload": {"asset_ref": "ASSET-3", "item_ref": "ITEM-SYN-108", "capture_kind": "photogrammetry", "source_team": "TEAM-SYN-1", "sha256": "7cc9f49113279091b7f22a1ac662fedacb83fb18f88c48364147201a236b99b1"}},
+    {"source_id": "research-27", "record_kind": "research_note", "collected_at": "2026-06-12T16:45:00+08:00", "payload": {"note_ref": "NOTE-27", "item_ref": "ITEM-SYN-108", "revision": 2, "review_state": "checked"}},
+    {"source_id": "rights-44", "record_kind": "license", "collected_at": "2026-06-14T10:00:00+08:00", "payload": {"license_ref": "LIC-44", "asset_ref": "ASSET-3", "allowed_use": ["research", "onsite-display"], "valid_until": "2026-12-31"}},
+    {"source_id": "exhibit-9", "record_kind": "exhibition_item", "collected_at": "2026-06-16T13:20:00+08:00", "payload": {"exhibition_ref": "EX-SYN-9", "asset_ref": "ASSET-3", "state": "draft", "license_ref": "LIC-44"}}
+  ]
+}
