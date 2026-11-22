@@ -1,0 +1,22 @@
+{
+  "note": "虚构合成资料，仅用于演练数字资料接收与编目流程。",
+  "sources": [
+    {"source_id": "catalog-108-r5", "record_kind": "collection_item", "collected_at": "2026-06-10T09:00:00+08:00", "payload": {"item_ref": "ITEM-SYN-108", "catalogue_revision": 5, "period": "明代", "title": "青釉双耳瓶（虚构）", "institution_ref": "MUSEUM-SYN-2"}},
+    {"source_id": "catalog-109", "record_kind": "collection_item", "collected_at": "2026-06-10T09:10:00+08:00", "payload": {"item_ref": "ITEM-SYN-109", "catalogue_revision": 2, "period": "清代", "title": "粉彩折枝纹盘（虚构）", "institution_ref": "MUSEUM-SYN-2"}},
+
+    {"source_id": "scan-108-a", "record_kind": "digital_asset", "collected_at": "2026-06-11T11:30:00+08:00", "payload": {"asset_ref": "ASSET-108-A", "item_ref": "ITEM-SYN-108", "capture_kind": "photogrammetry", "source_team": "TEAM-SYN-1", "file_name": "object_front.jpg", "angle": "front", "sha256": "7cc9f49113279091b7f22a1ac662fedacb83fb18f88c48364147201a236b99b1"}},
+    {"source_id": "scan-108-b", "record_kind": "digital_asset", "collected_at": "2026-06-11T11:45:00+08:00", "payload": {"asset_ref": "ASSET-108-B", "item_ref": "ITEM-SYN-108", "capture_kind": "photogrammetry", "source_team": "TEAM-SYN-1", "file_name": "object_front.jpg", "angle": "back", "sha256": "0a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef"}},
+    {"source_id": "scan-108-c", "record_kind": "digital_asset", "collected_at": "2026-06-12T09:00:00+08:00", "payload": {"asset_ref": "ASSET-108-C", "item_ref": "ITEM-SYN-108", "capture_kind": "rti", "precision_note": "高精度表面扫描", "file_name": "object_front.jpg"}},
+    {"source_id": "scan-109-a", "record_kind": "digital_asset", "collected_at": "2026-06-12T10:00:00+08:00", "payload": {"asset_ref": "ASSET-109-A", "item_ref": "ITEM-SYN-109", "capture_kind": "photograph", "source_team": "TEAM-SYN-2", "file_name": "plate.jpg", "sha256": "1111111111111111111111111111111111111111111111111111111111111111"}},
+
+    {"source_id": "research-27-r2", "record_kind": "research_note", "collected_at": "2026-06-12T16:45:00+08:00", "payload": {"note_ref": "NOTE-27", "item_ref": "ITEM-SYN-108", "note_kind": "interpretation", "revision": 2, "review_state": "checked", "author": "RESEARCHER-SYN-1", "body": "器形比例可能反映晚期作坊习惯（解释性判断）。"}},
+    {"source_id": "research-28", "record_kind": "research_note", "collected_at": "2026-06-12T17:00:00+08:00", "payload": {"note_ref": "NOTE-28", "item_ref": "ITEM-SYN-108", "note_kind": "observation", "revision": 1, "review_state": "checked", "author": "RESEARCHER-SYN-2", "body": "圈足外沿有一处 8mm 磕碰，釉面可见细开片。"}},
+
+    {"source_id": "rights-44-r1", "record_kind": "license", "collected_at": "2026-06-14T10:00:00+08:00", "payload": {"license_ref": "LIC-44", "asset_ref": "ASSET-108-A", "allowed_use": ["research", "onsite-display", "online-exhibition"], "valid_from": "2026-06-14", "valid_until": "2026-12-31", "attribution": "摄影：TEAM-SYN-1（虚构）"}},
+    {"source_id": "rights-45", "record_kind": "license", "collected_at": "2026-06-14T10:05:00+08:00", "payload": {"license_ref": "LIC-45", "asset_ref": "ASSET-108-B", "allowed_use": ["research"], "valid_until": "2026-12-31"}},
+    {"source_id": "rights-46", "record_kind": "license", "collected_at": "2026-06-14T10:10:00+08:00", "payload": {"license_ref": "LIC-46", "asset_ref": "ASSET-108-C", "allowed_use": ["online-exhibition"], "valid_until": "2026-11-30"}},
+
+    {"source_id": "exhibit-9-draft", "record_kind": "exhibition_item", "collected_at": "2026-06-16T13:20:00+08:00", "payload": {"exhibition_ref": "EX-SYN-9", "asset_ref": "ASSET-108-A", "item_ref": "ITEM-SYN-108", "state": "draft", "channel": "online-exhibition", "license_ref": "LIC-44", "note_refs": ["NOTE-27"]}},
+    {"source_id": "exhibit-10-draft", "record_kind": "exhibition_item", "collected_at": "2026-06-16T13:30:00+08:00", "payload": {"exhibition_ref": "EX-SYN-10", "asset_ref": "ASSET-108-B", "item_ref": "ITEM-SYN-108", "state": "draft", "channel": "online-exhibition", "license_ref": "LIC-45"}}
+  ]
+}
